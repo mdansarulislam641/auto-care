@@ -1,0 +1,47 @@
+/*TODO: login form custom css start  */
+#main_banner{
+    background: url('../images/background-image.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 95vh;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#txt_filed{
+    border-bottom: 1px solid #fff;
+    margin: 5px 0;
+
+}
+
+#txt_filed input {
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 14px;
+    border: transparent;
+    outline: none;
+    color : #fff ;
+    background-color: transparent;
+
+}
+#txt_filed label {
+    position: absolute;
+    z-index: 1;
+    top: 40% ;
+    margin: 0;
+    padding: 0;
+    left : 5px ;
+    color : #fff ;
+    opacity: 0.5;
+    transform: translateY(-50%);
+    transition: 0.5s;
+
+}
+#txt_filed input:focus ~ label {
+    top: -5px ;
+};
+
+/*TODO : login form custom css end  */
+

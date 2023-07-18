@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ! Login part start -->
+    <section class="m-5">
+    <div id="login_section" class=" relative h-[95vh] rounded-bl-[20px] rounded-br-[20px] w-full rounded-tr-[20px]" style="background: url('./images/background-image.png'); background-repeat: no-repeat; background-size: cover;">
+        <!-- * logo image  -->
+        <div class="absolute top-2 -left-2 w-10 md:w-20 md:left-2 md:top-0 lg:w-24 lg:top-0 lg:left-4 ">
+            <img class="w-full" src="./images/logo.png" alt="">
+        </div>
+
+        <!-- TODO: login container start -->
+        <div class="grid lg:grid-cols-2 gap-5  items-center  lg:w-9/12 w-[90vw] mx-auto h-full">
+            <!--* login text  -->
+            <div>
+                <h1
+                class="lg:text-7xl md:text-5xl text-4xl font-bold text-transparent tracking-wider"
+                style="-webkit-text-stroke: 2px #ffffff"
+              >
+                Welcome to
+              </h1>
+              <h3 class="lg:text-7xl md:text-5xl text-4xl font-bold" style="color: #69bf70">
+                V6 Auto Centre
+              </h3>
+            </div>
+            <!--* form start  -->
+            <div class="border-[1.5px] p-6 rounded-[10px] bg-black opacity-80" style="border-color: #ffffff , #69bf70;"> 
+                <h2 class="text-3xl text-white font-semibold">Login to account</h2>
+                <p class="text-white my-1">Enter your credentials to access your account</p>
+                <form>
+                   <div class="border-b-white border-b-[1px] my-5">
+                    <input type="email" placeholder="Enter email" class="border-transparent bg-transparent outline-none text-white p-2 w-full">
+                   </div>
+                   <div class="border-b-white border-b-[1px] my-5">
+                    <input type="password" placeholder="Enter password" class="border-transparent bg-transparent outline-none text-white p-2 w-full">
+                   </div>
+                  <div class="flex justify-between">
+                    <div class="flex items-center gap-2">
+                        <!-- remind me  -->
+                        <input type="checkbox" > <p class="text-white">Remember for 30 days</p>
+                       </div>
+                       <!-- forgot password  -->
+                       <div>
+                        <a href="#" class="text-[#3EB075]">Forgot Password</a>
+                       </div>
+                  </div>
+                  <div  class=" text-center mt-6" >
+                    <button type="submit" class="w-full py-2 text-white rounded" style=" background: linear-gradient(rgba(62, 176, 117, 1),
+                    rgba(105, 191, 112, 1));">Sign Up</button>
+                </div>
+                <!-- ! have already an account -->
+                <div class="flex justify-center mt-2">
+                    <h2 class="text-white text-[14px]">Already a Member? </h2> <a  href="#" class="text-green-400"> &nbsp; login</a>
+                </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</section>
+    <!-- ! Login part end -->
+</body>
+</html>

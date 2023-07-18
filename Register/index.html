@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- TODO: login start -->
+    <section id="main_banner">
+    <!-- <img class="absolute p-5 h-full w-full" src="./images/background-image.png" alt=""> -->
+      <!--* logo image -->
+      <div id="logo" >
+        <img class="absolute top-2 left-8" src="./images/logo.png" alt="logo-image" />
+      </div>
+
+      <!--* main  container -->
+      <div class="md:flex  justify-around items-center">
+        <!-- * text container -->
+        <div>
+          <h1
+            class="text-7xl font-bold text-transparent tracking-wider"
+            style="-webkit-text-stroke: 2px #ffffff"
+          >
+            Welcome to
+          </h1>
+          <h3 class="text-7xl font-bold" style="color: #69bf70">
+            V6 Auto Centre
+          </h3>
+        </div>
+        <!-- * form container -->
+        <div class="border p-8 rounded-lg bg-black opacity-80 mt-14">
+          <!-- form title  -->
+          <h2 class="text-2xl my-3 text-white font-semibold">
+            Sign Up Today & Get your first month at discounted price
+          </h2>
+          <form >
+            <div class="grid grid-cols-2 gap-5 flex-wrap">
+                <div id="txt_filed">
+                    <input
+                      placeholder="Business name"
+                      type="text"/>
+                  </div>
+                  <div id="txt_filed">
+                    <input
+                      type="text"
+                      placeholder="Business type"
+                      />
+                  </div>
+                  <div id="txt_filed">
+                    <input
+                      type="text"
+                      placeholder="Email Address"
+                      />
+                  </div>
+                  <div id="txt_filed">
+                    <input
+                      type="text"
+                      placeholder="Street Address"
+                      />
+                  </div>
+                  <div id="txt_filed">
+                    <input
+                      type="text"
+                      placeholder="Password"
+                      />
+                  </div>
+                  <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Town/City"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Phone Primary"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Post Code"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Phone Alternate"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Country"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Your Default Warrenty"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Quoting Person Name"
+                        />
+                    </div>
+                    <div id="txt_filed">
+                      <input
+                        type="text"
+                        placeholder="Vat Number"
+                        />
+                    </div>
+            </div>
+            <div  class=" text-center mt-6" >
+                <button type="submit" class="w-1/2 py-2 text-white rounded" style=" background: linear-gradient(rgba(62, 176, 117, 1),
+                rgba(105, 191, 112, 1));">Sign Up</button>
+            </div>
+            <!-- ! have already an account -->
+            <div class="flex justify-center mt-2">
+                <h2 class="text-white">Already a Member? </h2> <a  href="#" class="text-green-400"> &nbsp; login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- TODO: login end -->
+  </body>
+</html>
